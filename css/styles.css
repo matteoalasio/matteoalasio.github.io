@@ -3,5 +3,24 @@
 }
 
 body {
-	padding-bottom: 400 px;
+	margin-bottom: 400 px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+
+}
+
+iframe  {
+	height:600px; 
+}
+
+section {
+	margin-top: 15px;
 }
