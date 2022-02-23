@@ -13,8 +13,8 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <div class="container d-flex flex-column flex-md-row justify-content-between">
-		<a class="navbar-brand" id="logo" href="#home">Matteo Alasio</a>
+	  <div class="container d-flex flex-md-row justify-content-between">
+		<a class="navbar-brand" id="logo" href="#home_section"><span id="logo-text">Matteo Alasio</span></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
@@ -50,10 +50,10 @@
 			<div id="home_section" class="mt-3 pb-3">
 				<h1 class="border-bottom mb-3">Home</h1>
 					<div class="row">
-						<div class="col-6">
+						<div class="col">
 							Welcome to my official website! Here you may find information about myself, my hobbies, my research activity and so on. Feel free to explore and tell me what do you think about!
 						</div>
-						<div class="col-6">
+						<div class="col">
 							<img class="img-fluid rounded d-block" width=100% src="media/foto_profilo.jpg">
 						</div>
 					</div>
@@ -61,23 +61,23 @@
 
 			<!-- About -->
 			<div id="about_section" class="mt-3 pb-3">
-				<h1 class=" border-bottom"> About me </h1>
+				<h1 class=" border-bottom mb-3"> About me </h1>
 				<div class="row pb-3">
-					<div class="col-6">
+					<div class="col">
 					<h2>Who I am?</h2>
 						I'm Matteo Alasio, a Ph.D. student in Electrical, Electronics and Communications engineering at Politecnico di Torino. I love physics, music and computer science. I know, they are three things that are “a bit” different ;-) But spending time on studying these topics I understand that they are correlated, and the more I study one of them, the more I love them!
 					</div>
-					<div class="col-6">
+					<div class="col">
 					<h2>What is my experience?</h2>
 						I start my experience at 11 years old when I make my first live concert. At that time I play the bass guitar but my passion is and was the guitar! So day by day I grow up in life and music and at 14 years old I decide to took private lessons of guitar with Marco Soria (a special big hug to him, thanks Marco, you make me love and understand more music). I continue to play with some local band and we had great live experience, but three years ago (in 2015) it happens what i wish! Marco asked me if I want to play with him in his beautiful project, AMEMANERA. Meanwhile I continue develop skill in computer science and I learn different programming languages (as C, JAVA, SQL, VBA,..).
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-6">
+					<div class="col">
 						<h2>Where I studied and where I am studying?</h2>
 						I attended high school in Asti, at the Liceo Scientifico “F. Vercelli”. I choose the new couse that was called “Opzione scienze applicate” so I study computer science since 14 years old. During those years I learned to programming in different language: C, JAVA, SQL, VBA, OCTAVE/MATLAB, C++, HTML, Python, Arduino and LaTex. Now I’m attending to Politecnico di Torino in ECE (electronic and communications engineering). This undergraduate program is completely offer in English.
 					</div>
-					<div class="col-6">
+					<div class="col">
 						<h2>Scholarship and reward</h2>
 						For two consecutive years (this one and the last one) I took a reduction of the fee for merit and a scholarship for ECE student.
 					</div>
@@ -87,13 +87,13 @@
 			
 			<!-- Ph.D. and research -->
 			<div id="phd_section" class="mt-3 pb-3">
-				<h1 class=" border-bottom"> Ph.D. and Research activity </h1>
+				<h1 class=" border-bottom mb-3"> Ph.D. and Research activity </h1>
 				<div class="row">
-					<div class="col-9">
+					<div class="col-md-9">
 						For few years, I begain a Ph.D. in Electrical, Electronic and communications engineering. The focus of the Ph.D. is on the simulation of opto-electronic devices and in particular with Ge-on-Si photodetectors for fast communication applications. Here, you can find my <a href="https://scholar.google.it/citations?user=aiCt5FoAAAAJ&hl=it&oi=ao">Google Scholar</a> link. 
 					</div>
-					<div  class="col-3">
-						<a href="https://www.det.polito.it/personale/scheda/(nominativo)/matteo.alasio/(sezione)/didattica"><img class="image-invert" src="https://www.polito.it/images/logo_poli.svg" width=100%></a>
+					<div class="col-sm-3">
+						<a href="https://www.det.polito.it/personale/scheda/(nominativo)/matteo.alasio/(sezione)/didattica"><img id="logo_poli" class="image-invert" src="https://www.polito.it/images/logo_poli.svg" width=100%></a>
 					</div>
 				</div>
 					<h2> My last publications</h2>
@@ -106,16 +106,16 @@
 			
 			<!-- Music -->
 			<div id="music_section" class="mt-3 pb-3">
-					<h1 class=" border-bottom"> Music </h1>
+					<h1 class=" border-bottom mb-3"> Music </h1>
 					I'm playing the guitar since 2009. I'm passionate about music and I love have live concert. At the moment I'm playing as a guitaris in AMEMANERA, a Piedmont-dialet based project that have its focus on innovating traditional music and writing new song. I'm also playing as acusting guitar in the "Gli elefanti Rosa", an acousting cover duo with my friend Elena Capra.
 					<div class="row mt-3">
-						<div class="col-sm">
+						<div class="col">
 							<img class="rounded d-block" width=100% src="media/music_2.jpg">
 						</div>		
-						<div class="col-sm">
+						<div class="col">
 							<img class="rounded d-block" width=100% src="media/music_1.jpg">
 						</div>	
-						<div class="col-sm">	
+						<div class="col">	
 							<img class="rounded d-block" width=100% src="media/music_3.jpg">
 						</div>
 					</div>
@@ -123,33 +123,33 @@
 			
 			<!-- Photo -->
 			<div id="photo_section" class="mt-3 pb-3">
-				<h1 class=" border-bottom"> Videomaking and photography </h1>
+				<h1 class=" border-bottom mb-3"> Videomaking and photography </h1>
 				I'm passionate about videomaking and photography and I'm uploading my picture on Instagram and my video on YouTube.
 				<div class="row mt-3">
-					<div class="col-sm">
+					<div class="col">
 						<img class="rounded d-block" width=100% src="media/photo_1.jpg">
 					</div>		
-					<div class="col-sm">
+					<div class="col">
 						<img class="rounded d-block" width=100% src="media/photo_2.jpg">
 					</div>	
-					<div class="col-sm">	
-						<img class="rounded d-block" width=100% src="media/photo_3.jpg">
+					<div class="col">	
+						<img class="rounded d-block fade-in-image" width=100% src="media/photo_3.jpg">
 					</div>
 				</div>
-				<div class="col-12 mt-3">
-					<iframe width=100% class="rounded" src="https://www.youtube-nocookie.com/embed/-KkZapLkIfo" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="col mt-3">
+					<iframe width=100% height=400px; class="rounded" src="https://www.youtube-nocookie.com/embed/-KkZapLkIfo" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 			
 			<!-- Contact me -->
 			<div id="contactme_section" class = "mt-3">
-				<h1 class=" border-bottom"> Contact me </h1>
+				<h1 class=" border-bottom mb-3"> Contact me </h1>
 				<div class="row">
-				<div class="col-6">
+				<div class="col">
 					Please, feel free to contact me anytime! I'm avaible for reserach, music or for any information that you may need.
 				</div>
 				
-				<div class="col-6 text-end">
+				<div class="col text-end">
 					<!-- Facebook -->
 					Facebook: <a href="https://www.facebook.com/matteo.alasio">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">

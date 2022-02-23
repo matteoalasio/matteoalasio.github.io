@@ -7,6 +7,18 @@
 	filter: invert(100%);
 }
 
+@media (max-width: 700px) {
+	#logo_poli {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 33%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+  }
+	
+}
+
 body {
 	margin-bottom: 400 px;
 }
@@ -20,10 +32,3 @@ a {
 	text-decoration: none;
 }
 
-iframe  {
-	height:600px; 
-}
-
-section {
-	margin-top: 15px;
-}

@@ -1,9 +1,9 @@
-function iframe_set (tag,file){ 
-	document.getElementById("content").src = file;
+function setActive (tag){ 
 	remove_active()
 	document.getElementById(tag).classList.add('active');
 }
 
+ new WOW().init(); 
 
 function remove_active () {
 	document.getElementById('navbarDropdown').classList.remove('active');

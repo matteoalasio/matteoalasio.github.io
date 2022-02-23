@@ -7,6 +7,18 @@
 	filter: invert(100%);
 }
 
+@media (max-width: 700px) {
+	#logo_poli {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 33%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+  }
+	
+}
+
 body {
 	margin-bottom: 400 px;
 }
@@ -18,13 +30,46 @@ body {
 
 a {
 	text-decoration: none;
-
 }
 
-iframe  {
-	height:600px; 
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
 }
 
-section {
-	margin-top: 15px;
+
+.fade-in-text {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
