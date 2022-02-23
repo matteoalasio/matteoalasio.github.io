@@ -1,4 +1,5 @@
-function setActive (tag){ 
+function iframe_set (tag,file){ 
+	document.getElementById("content").src = file;
 	remove_active()
 	document.getElementById(tag).classList.add('active');
 }
